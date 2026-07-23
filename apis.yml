@@ -1,7 +1,28 @@
 aid: akash-systems
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/akash-systems.png
 name: Akash Systems
-description: Akash Systems is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Akash Systems is an Oakland, California deep-tech semiconductor company that
+  pioneers Diamond Cooling thermal-management technology, integrating synthetic
+  diamond directly with semiconductors such as Gallium Nitride (GaN) to remove
+  heat up to five times faster than copper. Its Chip-on-Diamond and diamond-cooled
+  server products target AI and data-center compute, while its GaN power
+  amplifiers and satellite radios serve space communications, radar, cellular,
+  and automotive/EV markets. Akash Systems is a hardware and materials company
+  with no public developer API or documentation surface; it was surfaced as a
+  DCVC portfolio company and added to the API Evangelist network as a stub for
+  enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/akash-systems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +30,39 @@ x-backed-by:
 - dcvc
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  last_run: '2026-07-17'
+  outcome: no-api-surface
+  note: >-
+    Hardware/semiconductor company (Diamond Cooling, GaN-on-diamond). No public
+    API, OpenAPI, docs portal, SDKs, or developer/docs subdomain found
+    (developer.akashsystems.com and docs.akashsystems.com do not resolve).
+    No API artifacts produced; identity hygiene only.
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Semiconductors
+- Thermal Management
+- Diamond Cooling
+- Gallium Nitride
+- Data Centers
+- Artificial Intelligence
+- Space
+- Hardware
 apis: []
+common:
+- type: Website
+  url: https://www.akashsystems.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/akash-systems-inc/
+- type: Twitter
+  url: https://x.com/akashsystems
+- type: YouTube
+  url: https://www.youtube.com/@akashsystems
+- type: Instagram
+  url: https://www.instagram.com/akashsystems/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
