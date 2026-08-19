@@ -38,7 +38,7 @@ x-enrichment:
     API, OpenAPI, docs portal, SDKs, or developer/docs subdomain found
     (developer.akashsystems.com and docs.akashsystems.com do not resolve).
     No API artifacts produced; identity hygiene only.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
