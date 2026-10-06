@@ -51,7 +51,7 @@ x-enrichment:
     No API artifacts produced; identity hygiene only.
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-10-06'
 tags:
 - Company
 - Semiconductors
@@ -75,6 +75,8 @@ tags_raw:
 - Data-Center
 apis: []
 common:
+- url: https://www.akashsystems.com/news
+  type: Blog
 - type: Website
   url: https://www.akashsystems.com
 - type: LinkedIn
